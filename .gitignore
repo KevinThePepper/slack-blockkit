@@ -1,0 +1,4 @@
+
+# project-specific settings
+dist/
+node_modules/

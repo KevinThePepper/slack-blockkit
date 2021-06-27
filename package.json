@@ -1,0 +1,30 @@
+{
+  "name": "slack-blockkit",
+  "version": "1.0.0",
+  "description": "Typescript library for generating Slack blocks for Slack's block kit builder",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/KevinThePepper/slack-blockkit",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Kevin Shelley",
+    "email": "kevin.shelley1@outlook.com"
+  },
+  "license": "MIT",
+  "private": false,
+  "tags": [
+    "slack",
+    "block",
+    "kit"
+  ],
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "prepublish": "tsc",
+    "pub": "tsc && yarn publish"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
+}
